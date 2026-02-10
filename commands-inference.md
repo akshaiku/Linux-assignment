@@ -25,7 +25,7 @@ cd . : No change occurred (represents current directory).
 **Resultant Path:** /home/akshai/ev4/6
 
 cd .. : Moved up one level to the parent directory (ev4).  
-**Resultant Path:** /home/akshaiev4  
+**Resultant Path:** /home/akshai/ev4  
 
 cd ~ : Moved immediately to my Home directory.  
 **Resultant Path:** /home/akshai
@@ -148,6 +148,7 @@ Observation: If 'alice' is logged in, message appears on their terminal.
 
 mesg y / mesg n : Enabled/disabled ability to receive messages from other users.  
 
-**Note:** Optional `tty` argument specifies terminal session if multiple sessions exist.
+S`tty` argument specifies current terminal session
+
 
 
